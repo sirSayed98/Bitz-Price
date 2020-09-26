@@ -1,11 +1,8 @@
-import Link from 'next/link'
+import Navbar from '../components/Navbar'
 const about = () => (
     <>
+        <Navbar />
         <div><h1> hello from about</h1> </div>
-        <ul>
-            <li><Link href='/'><a> home</a></Link> </li>
-            <li><Link href='/about'><a> about</a></Link> </li>
-        </ul>
     </>
 
 );
