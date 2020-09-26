@@ -1,10 +1,8 @@
-import Navbar from '../components/Navbar'
+import Layout from '../components/Layout'
 const index = () => (
-    <>
-        <Navbar />
+    <Layout>
         <div><h1> hello from index</h1> </div>
-
-    </>
+    </Layout>
 );
 
 
